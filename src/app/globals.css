@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-night text-white m-0 min-h-screen antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
